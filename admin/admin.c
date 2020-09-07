@@ -2,9 +2,12 @@
 
 int  admin_login(){
 	struct  admin   adm;
-	//printf("Welcome  Login  Stu  Sys\n");
+
 	printf("Please  Input  Your  Id\n");
-	//scanf("%s", admin.id);
+	scanf("%4d", &adm.id);
 	printf("Please  Input  Your  name\n");
-	//scanf("%s", admin.name);
+	scanf("%s", adm.name);
+
+	printf("Input info adm.id=[%d]\nadm.name=[%s]\n",adm.id,adm.name );
+
 }
