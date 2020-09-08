@@ -2,7 +2,7 @@
 
 int  admin_login(){
 	struct  admin   adm;
-        int  fd;
+    int  fd;
 	fd = open("./config.ini", 0600);
 	if(fd < 0){
 	    perror("open file err\n");
