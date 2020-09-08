@@ -9,7 +9,7 @@ int  admin_login(){
 	scanf("%s", adm.name);
 	
 	int  fd;
-	fd = open("./config.ini", 0600);
+	fd = open("./conf.ini", 0600);
 	if(fd < 0){
 	    perror("open file err\n");
 	    exit(-1);

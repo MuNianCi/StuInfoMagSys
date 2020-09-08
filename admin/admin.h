@@ -5,8 +5,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include "admin.h"
-#include "stu.h"
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
 struct  admin{
 	int  id;
 	char name[64];
