@@ -1,5 +1,6 @@
 #include "teach.h"
 
-int teachDeal(){
-	return 0;
+int teachdeal(){
+  printf("in teach\n");
+  return 0;
 }
