@@ -5,8 +5,8 @@
 int main(){
 	printf("Welcome Login  Stu Management Sys\n");
 	printf("Please Choice  Your Identity\n");
-	printf("\t\t1------->admin\n");
-	printf("\t\t2------->stu\n");
+	printf("\t\t1-------->admin\n");
+	printf("\t\t2-------->stu\n");
 	int choice = 0;
 	scanf("%1d", &choice);	
 
