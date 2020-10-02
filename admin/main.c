@@ -7,6 +7,7 @@ int main(){
 	printf("Please Choice  Your Identity\n");
 	printf("\t\t1-------->admin\n");
 	printf("\t\t2-------->stu\n");
+	printf("-------------\n");
 	int choice = 0;
 	scanf("%1d", &choice);	
 
